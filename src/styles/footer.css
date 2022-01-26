@@ -1,0 +1,235 @@
+.footer_line {
+    width: calc(100%/6);
+    height: 3px;
+}
+.footer_line_red{
+    background: #FF4F52;
+}
+.footer_line_purple{
+    background: #AC8EE3;
+}
+.footer_line_blue {
+    background: #4592FF;
+}
+.footer_line_orange {
+    background: #FFA34D;
+}
+.footer_line_green {
+    background: #3DC47E;
+}
+.footer_line_grayblue {
+    background: #6E99AE;
+}
+
+.footer {
+    /* padding-bottom: 30px; */
+}
+
+.footer_wrapper > header > h1 {
+ text-align: center;
+ padding-top: 40px;
+}
+.subscribe {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.subscribe button {
+    padding: 6px 30px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.subscribe input {
+    background: #FFFFFF;
+    border: 1px solid #D9DADB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    width: 313px;
+    padding: 8px 10px;
+    margin-right: 10px;
+}
+
+.footer_wrapper > main{
+    display: flex;justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 1px solid #D9DADB;
+    padding-bottom: 60px;
+}
+.head_list {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #262D33;
+    padding: 10px 0;
+}
+.body_list {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #4B5157;   
+    padding: 10px 0; 
+}
+
+.footer_wrapper > div > figure {
+    width: 500px;
+    padding: 20px 0;
+}
+.footer_wrapper > div > figure > figcaption {
+    border-radius: 50%;
+    width: 40px;height: 40px;
+    background: #4592FF;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;align-items: center;justify-content: center;
+}
+.footer_wrapper > div > figure > article{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #262D33;
+}
+
+.socials {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+.socials div {
+    width: 40px;
+    height: 40px;
+    /* background: #000; */
+    cursor: pointer;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;align-items: center;justify-content: center;
+}
+.socials canvas img {
+    background: #fff;
+}
+.facebook {
+    background: #4267B2;
+}
+.twitter {
+    background: #1DA1F2;   
+}
+.youtube {
+    background: #FF0000;
+}
+.instagram {
+    background: #000;
+}
+
+.footer_wrapper > div {
+    border-bottom: 1px solid #D9DADB;
+}
+
+.footer_wrapper > footer > article {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #939699;
+    margin: 40px 0 50px 0;
+}
+.footer_wrapper > footer > article:nth-child(1){
+    width: 70%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    .footer_wrapper > header > h1 {
+        font-size: 20px;
+    }
+    .footer {
+        padding-top: 20px;
+    }
+    .subscribe {
+        margin-top: 16px;
+        margin-bottom: 20px;
+    }
+    .subscribe input {
+        width: 270px;
+    }
+    .footer_wrapper > main {
+        display: flex;justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+    .footer_wrapper > main > figure {
+        width: 48%;
+    }
+    .body_list {
+        color: #9b9999;
+    }
+    .head_list, .body_list {
+        font-size: 12px;
+        padding: 4px 0;
+    }
+    .footer_wrapper > footer > article:nth-child(1),
+     .footer_wrapper > footer > article {
+         padding-right: 6px;
+        font-size: 10px;
+        line-height: 12px;
+        margin: 25px 0;
+    }
+    .footer_wrapper > div {
+        flex-direction: column;
+    }
+    .footer_wrapper > div > figure > article {
+        font-size: 7px;
+    }
+    .footer_wrapper > div > figure {
+        width: 300px;
+    }
+    .socials {
+        width: 110px;
+        padding-bottom: 10px;
+        margin-left: calc(100%-110px);
+    }
+    .socials > div{
+        width: 25px;
+        height: 25px;
+    }
+    .socials > div > img {
+        width: 15px;
+    }
+    .footer_wrapper > div > figure > figcaption {
+        width: 22px;
+        height: 22px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 699px) and (max-width: 1150px) {
+    .footer_wrapper > header > h1 {
+        padding-top: 20px;
+    }
+    .body_list, .head_list {
+        font-size: 12px;
+    }
+    .footer_wrapper > div > figure > article {
+        font-size: 12px;
+    }
+    .footer_wrapper > div {
+        flex-direction: column;
+    }
+    .socials {
+        padding-bottom: 20px;
+    }
+}
